@@ -1,8 +1,5 @@
-import animateTitle from './features/animateTitle'
-import createBadge from './features/createBasge'
 import './styles/style.css'
+import { gsap } from 'gsap'
 
-console.log('Welcome to Vite + JS + Webflow!')
 
-createBadge()
-animateTitle()
+gsap.to('h1', { x: 500 })
