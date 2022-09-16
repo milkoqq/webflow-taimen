@@ -8,7 +8,6 @@ const btnMenuOpen = document.querySelector('.nav_hamburger-wrap')
 const btnMenuClose = document.querySelector('.nav_expand-hamburger-close')
 
 let tl = gsap.timeline({ paused: true })
-
     .from('.nav_expand', {
         height: '0vh',
         duration: 0.7,
