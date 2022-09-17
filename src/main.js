@@ -17,7 +17,7 @@ let tl = gsap.timeline({ paused: true })
         borderRadius: '20px 20px 0px 0px',
         duration: 0.8,
         scaleX: 0.97,
-        backgroundColor: 'rgb(255, 255, 255, 0.6)',
+        backgroundColor: 'rgb(255, 255, 255, 0.8)',
         ease: "power1.inOut"
     }, "<")
     .from('.nav_expand-link-text', {
